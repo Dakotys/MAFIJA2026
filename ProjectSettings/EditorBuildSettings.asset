@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: 2e6f527350e351b48af8fba4bafcce74
   - enabled: 1
-    path: Assets/Scenes/Scenes/Death.unity
-    guid: ca29ab8a395a19a43af81901d1f35078
+    path: Assets/Scenes/Scenes/dead.unity
+    guid: 0af785b4713027f489143fb4a4789227
   - enabled: 1
     path: Assets/Scenes/Scenes/Hospital.unity
     guid: 2344f2cfbd8581a45a602df6d5d23415
@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes/Home.unity
     guid: 93f01d394b5986846b7b16b44cacafe1
+  - enabled: 1
+    path: Assets/Scenes/Scenes/electric.unity
+    guid: 1ec5dacc07d32cd4d83f1bd833414de1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
