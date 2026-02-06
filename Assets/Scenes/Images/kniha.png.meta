@@ -1,0 +1,3393 @@
+fileFormatVersion: 2
+guid: 00d2d70a2e752494cbf4517cb374b929
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1157622261351562431
+    second: kniha_0
+  - first:
+      213: 5014945313595349988
+    second: kniha_1
+  - first:
+      213: 6851155571794625006
+    second: kniha_2
+  - first:
+      213: 1581797816023611559
+    second: kniha_3
+  - first:
+      213: -8575159785932669233
+    second: kniha_4
+  - first:
+      213: 2345471909679063040
+    second: kniha_5
+  - first:
+      213: 5600390531028634239
+    second: kniha_6
+  - first:
+      213: -7279370952133781827
+    second: kniha_7
+  - first:
+      213: -3654668541783018507
+    second: kniha_8
+  - first:
+      213: -4035293348236941870
+    second: kniha_9
+  - first:
+      213: -3688957220431539022
+    second: kniha_10
+  - first:
+      213: -6662286005364887449
+    second: kniha_11
+  - first:
+      213: 7233565655256754760
+    second: kniha_12
+  - first:
+      213: 6590886524522501108
+    second: kniha_13
+  - first:
+      213: -3874887591548213641
+    second: kniha_14
+  - first:
+      213: 9218020391427662967
+    second: kniha_15
+  - first:
+      213: -4336421402248951331
+    second: kniha_16
+  - first:
+      213: 5951237633934240478
+    second: kniha_17
+  - first:
+      213: 7318555033157897001
+    second: kniha_18
+  - first:
+      213: -3834689160895511473
+    second: kniha_19
+  - first:
+      213: -5314975378083368513
+    second: kniha_20
+  - first:
+      213: -4083332545840683546
+    second: kniha_21
+  - first:
+      213: -2555623715029756861
+    second: kniha_22
+  - first:
+      213: -6118742536955040643
+    second: kniha_23
+  - first:
+      213: 7537729256184348926
+    second: kniha_24
+  - first:
+      213: -8549876081979213910
+    second: kniha_25
+  - first:
+      213: 3891867670763899455
+    second: kniha_26
+  - first:
+      213: 920096814625246836
+    second: kniha_27
+  - first:
+      213: 8839519379141667382
+    second: kniha_28
+  - first:
+      213: -5148283344836094785
+    second: kniha_29
+  - first:
+      213: 5819989601388453978
+    second: kniha_30
+  - first:
+      213: -4512704178437699936
+    second: kniha_31
+  - first:
+      213: -221993569791919330
+    second: kniha_32
+  - first:
+      213: 5701969533451382544
+    second: kniha_33
+  - first:
+      213: -8483378063293554365
+    second: kniha_34
+  - first:
+      213: -2830196041814191325
+    second: kniha_35
+  - first:
+      213: 4845258563047369783
+    second: kniha_36
+  - first:
+      213: -1252198104749272037
+    second: kniha_37
+  - first:
+      213: -4442445262772124356
+    second: kniha_38
+  - first:
+      213: 8503737512770489451
+    second: kniha_39
+  - first:
+      213: -4754422862406397175
+    second: kniha_40
+  - first:
+      213: -2542143482184633398
+    second: kniha_41
+  - first:
+      213: 3032038490980830889
+    second: kniha_42
+  - first:
+      213: -2545629828249916599
+    second: kniha_43
+  - first:
+      213: 5011008728901152355
+    second: kniha_44
+  - first:
+      213: -2764079669902782289
+    second: kniha_45
+  - first:
+      213: 8553942888648164388
+    second: kniha_46
+  - first:
+      213: -1176773661525693548
+    second: kniha_47
+  - first:
+      213: -2285962898660988280
+    second: kniha_48
+  - first:
+      213: 2987347815469845813
+    second: kniha_49
+  - first:
+      213: -3062484945736550013
+    second: kniha_50
+  - first:
+      213: 4558794526369690870
+    second: kniha_51
+  - first:
+      213: 7933928998697851841
+    second: kniha_52
+  - first:
+      213: 6485487747494209215
+    second: kniha_53
+  - first:
+      213: -3713458129431108845
+    second: kniha_54
+  - first:
+      213: 5068746291474199064
+    second: kniha_55
+  - first:
+      213: -7945609659446985601
+    second: kniha_56
+  - first:
+      213: 8240112460930496149
+    second: kniha_57
+  - first:
+      213: -3234623180996715289
+    second: kniha_58
+  - first:
+      213: 3936593791775272346
+    second: kniha_59
+  - first:
+      213: -376593155695422251
+    second: kniha_60
+  - first:
+      213: 7678193968269148201
+    second: kniha_61
+  - first:
+      213: 6680740931004953874
+    second: kniha_62
+  - first:
+      213: 7330034545378639005
+    second: kniha_63
+  - first:
+      213: 5899777874061502622
+    second: kniha_64
+  - first:
+      213: -8069038464908501903
+    second: kniha_65
+  - first:
+      213: -8414406353017604736
+    second: kniha_66
+  - first:
+      213: 932372683220915510
+    second: kniha_67
+  - first:
+      213: 8506303413567065947
+    second: kniha_68
+  - first:
+      213: -7750199074132882348
+    second: kniha_69
+  - first:
+      213: 4800936701232618783
+    second: kniha_70
+  - first:
+      213: 736644948073374496
+    second: kniha_71
+  - first:
+      213: 5177075195651348756
+    second: kniha_72
+  - first:
+      213: 7109141579701819740
+    second: kniha_73
+  - first:
+      213: -2395170744128803781
+    second: kniha_74
+  - first:
+      213: 1932329777758149318
+    second: kniha_75
+  - first:
+      213: -125509078989979826
+    second: kniha_76
+  - first:
+      213: 3705181364935353289
+    second: kniha_77
+  - first:
+      213: -5523811690474570857
+    second: kniha_78
+  - first:
+      213: 6082577991192315587
+    second: kniha_79
+  - first:
+      213: -8321609787655889846
+    second: kniha_80
+  - first:
+      213: 5740340630064921392
+    second: kniha_81
+  - first:
+      213: -7739367604007471253
+    second: kniha_82
+  - first:
+      213: 34086183187090873
+    second: kniha_83
+  - first:
+      213: -6497812188957204155
+    second: kniha_84
+  - first:
+      213: 146325036520403191
+    second: kniha_85
+  - first:
+      213: 3269354294073811143
+    second: kniha_86
+  - first:
+      213: 79067131009152400
+    second: kniha_87
+  - first:
+      213: -2204199835276301397
+    second: kniha_88
+  - first:
+      213: -4477674408348575288
+    second: kniha_89
+  - first:
+      213: -1523203907894676214
+    second: kniha_90
+  - first:
+      213: 4756397071631329790
+    second: kniha_91
+  - first:
+      213: -1382513293468822373
+    second: kniha_92
+  - first:
+      213: -8215464932709239793
+    second: kniha_93
+  - first:
+      213: -8128207332169898548
+    second: kniha_94
+  - first:
+      213: -7703855361579423099
+    second: kniha_95
+  - first:
+      213: 558443532206903272
+    second: kniha_96
+  - first:
+      213: 5861035688247406157
+    second: kniha_97
+  - first:
+      213: -9139268233702440266
+    second: kniha_98
+  - first:
+      213: 5637056672334143806
+    second: kniha_99
+  - first:
+      213: -2168492330152820099
+    second: kniha_100
+  - first:
+      213: -1005644880409924411
+    second: kniha_101
+  - first:
+      213: -2116045665391608790
+    second: kniha_102
+  - first:
+      213: -7235844526032438166
+    second: kniha_103
+  - first:
+      213: -8883754823408796010
+    second: kniha_104
+  - first:
+      213: -2899573025346016381
+    second: kniha_105
+  - first:
+      213: 8958745569814211073
+    second: kniha_106
+  - first:
+      213: 4177842139079590716
+    second: kniha_107
+  - first:
+      213: -8882286281900001708
+    second: kniha_108
+  - first:
+      213: -7871994322271708834
+    second: kniha_109
+  - first:
+      213: -3021937906112035864
+    second: kniha_110
+  - first:
+      213: 1601872084209989897
+    second: kniha_111
+  - first:
+      213: -9069510951535003120
+    second: kniha_112
+  - first:
+      213: 8524402880618168959
+    second: kniha_113
+  - first:
+      213: -4566769158818742873
+    second: kniha_114
+  - first:
+      213: -8230231757433347931
+    second: kniha_115
+  - first:
+      213: 3159329512492060775
+    second: kniha_116
+  - first:
+      213: -8072090672264517542
+    second: kniha_117
+  - first:
+      213: -1757164851017204851
+    second: kniha_118
+  - first:
+      213: -703007171939489059
+    second: kniha_119
+  - first:
+      213: -6683230152190517221
+    second: kniha_120
+  - first:
+      213: 609354269333418288
+    second: kniha_121
+  - first:
+      213: 5295736524267240956
+    second: kniha_122
+  - first:
+      213: 7014708056260509039
+    second: kniha_123
+  - first:
+      213: 1874143058741680847
+    second: kniha_124
+  - first:
+      213: -897638152515673518
+    second: kniha_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kniha_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1434e08cfac4fefe0800000000000000
+      internalID: -1157622261351562431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb5cd0413aa89540800000000000000
+      internalID: 5014945313595349988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1c1cd81b1341f50800000000000000
+      internalID: 6851155571794625006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a87392abbca3f510800000000000000
+      internalID: 1581797816023611559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fceb44b9b99eef880800000000000000
+      internalID: -8575159785932669233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_5
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000e317664acc8020800000000000000
+      internalID: 2345471909679063040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_6
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a4c6d048598bd40800000000000000
+      internalID: 5600390531028634239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_7
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6d4c1dfaa7afa90800000000000000
+      internalID: -7279370952133781827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_8
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f37a331352084dc0800000000000000
+      internalID: -3654668541783018507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_9
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d527d56412cff7c0800000000000000
+      internalID: -4035293348236941870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_10
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4d094f3f03eccc0800000000000000
+      internalID: -3688957220431539022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_11
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7607b2a2d2eca83a0800000000000000
+      internalID: -6662286005364887449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_12
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a6b0d63a9c26460800000000000000
+      internalID: 7233565655256754760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f39211cf58877b50800000000000000
+      internalID: 6590886524522501108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7762339f342a93ac0800000000000000
+      internalID: -3874887591548213641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_15
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7746a53f4bcfcef70800000000000000
+      internalID: 9218020391427662967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_16
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9cc82c5bfe1d3c0800000000000000
+      internalID: -4336421402248951331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_17
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda2698d81b079250800000000000000
+      internalID: 5951237633934240478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_18
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b068cf60bb09560800000000000000
+      internalID: 7318555033157897001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_19
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4448c4768278cac0800000000000000
+      internalID: -3834689160895511473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_20
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1b467bd0a6d36b0800000000000000
+      internalID: -5314975378083368513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_21
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5ef591fa61557c0800000000000000
+      internalID: -4083332545840683546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344561e75c9988cd0800000000000000
+      internalID: -2555623715029756861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_23
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce8b4c41cd51ba0800000000000000
+      internalID: -6118742536955040643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_24
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef000f762d46b9860800000000000000
+      internalID: 7537729256184348926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_25
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7350ca00db85980800000000000000
+      internalID: -8549876081979213910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_26
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a85bcc601b20630800000000000000
+      internalID: 3891867670763899455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_27
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ec4b29d27d4cc00800000000000000
+      internalID: 920096814625246836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_28
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63aabe2aa084caa70800000000000000
+      internalID: 8839519379141667382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2162
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb41cfb139f9d88b0800000000000000
+      internalID: -5148283344836094785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_30
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50e933f4b1c4c050800000000000000
+      internalID: 5819989601388453978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_31
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2162
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6ccc38577af51c0800000000000000
+      internalID: -4512704178437699936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_32
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb12246025becf0800000000000000
+      internalID: -221993569791919330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_33
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 2162
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f28719417712f40800000000000000
+      internalID: 5701969533451382544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_34
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341eb0a299cf44a80800000000000000
+      internalID: -8483378063293554365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_35
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2162
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d2fae1bf19b8d0800000000000000
+      internalID: -2830196041814191325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_36
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cab57edf0dd3340800000000000000
+      internalID: 4845258563047369783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_37
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2085
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14900a457c4f9ee0800000000000000
+      internalID: -1252198104749272037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35c95212934952c0800000000000000
+      internalID: -4442445262772124356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_39
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2085
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c49df8638530670800000000000000
+      internalID: 8503737512770489451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_40
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903554eb895e40eb0800000000000000
+      internalID: -4754422862406397175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_41
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2085
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac37f48c8fd78bcd0800000000000000
+      internalID: -2542143482184633398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_42
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae493071f6f31a20800000000000000
+      internalID: 3032038490980830889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_43
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2085
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b6685982b1cacd0800000000000000
+      internalID: -2545629828249916599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_44
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ee884b3edaa8540800000000000000
+      internalID: 5011008728901152355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_45
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0d0985f2404a9d0800000000000000
+      internalID: -2764079669902782289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2065
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4244ada8cb5b5b670800000000000000
+      internalID: 8553942888648164388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_47
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ba9b3f6924bafe0800000000000000
+      internalID: -1176773661525693548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2065
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ae69fead0a640e0800000000000000
+      internalID: -2285962898660988280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_49
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d8e91b201357920800000000000000
+      internalID: 2987347815469845813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_50
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2065
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3893467ea2edf75d0800000000000000
+      internalID: -3062484945736550013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_51
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4b24cd777144f30800000000000000
+      internalID: 4558794526369690870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_52
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2065
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb5e88736afa1e60800000000000000
+      internalID: 7933928998697851841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_53
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb66a88aeb4110a50800000000000000
+      internalID: 6485487747494209215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_54
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1999
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313e8fa8185277cc0800000000000000
+      internalID: -3713458129431108845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_55
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f5ef85edc75640800000000000000
+      internalID: 5068746291474199064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_56
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1999
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cffb4cc168bb190800000000000000
+      internalID: -7945609659446985601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_57
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596380f00a2ca5270800000000000000
+      internalID: 8240112460930496149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_58
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1999
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec527aca5f4c13d0800000000000000
+      internalID: -3234623180996715289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_59
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9de5c7523791a630800000000000000
+      internalID: 3936593791775272346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_60
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1999
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d45ee9258216caf0800000000000000
+      internalID: -376593155695422251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_61
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920ca3bbbbc6e8a60800000000000000
+      internalID: 7678193968269148201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1645
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21576fc0b72c6bc50800000000000000
+      internalID: 6680740931004953874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_63
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 443
+        width: 2127
+        height: 1449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cb2a4359389b560800000000000000
+      internalID: 7330034545378639005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_64
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e982525d7b830e150800000000000000
+      internalID: 5899777874061502622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_65
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1560
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c5a2c8444050090800000000000000
+      internalID: -8069038464908501903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_66
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1484
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085789cd0060a3b80800000000000000
+      internalID: -8414406353017604736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1509
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63519a5f30470fc00800000000000000
+      internalID: 932372683220915510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_68
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1426
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f8b55e2e57c0670800000000000000
+      internalID: 8506303413567065947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_69
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1464
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c8fbf1103c17490800000000000000
+      internalID: -7750199074132882348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_70
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1367
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d1b1a4e7a50a240800000000000000
+      internalID: 4800936701232618783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1398
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023ef776da6193a00800000000000000
+      internalID: 736644948073374496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_72
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1368
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419d84c067aa8d740800000000000000
+      internalID: 5177075195651348756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_73
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1044
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c591614d99eb8a260800000000000000
+      internalID: 7109141579701819740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_74
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c6bcbf5e4a2ced0800000000000000
+      internalID: -2395170744128803781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_75
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 883
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca1f28e1b301da10800000000000000
+      internalID: 1932329777758149318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 908
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f37ba582a124ef0800000000000000
+      internalID: -125509078989979826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_77
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 826
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c36e5d02d27b6330800000000000000
+      internalID: 3705181364935353289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 863
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bfc1fa88a7753b0800000000000000
+      internalID: -5523811690474570857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_79
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 766
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c680a3c478a96450800000000000000
+      internalID: 6082577991192315587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_80
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 797
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c5b57ecf3b38c80800000000000000
+      internalID: -8321609787655889846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_81
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bf2c0b369c9af40800000000000000
+      internalID: 5740340630064921392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_82
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67f7f84b2e389490800000000000000
+      internalID: -7739367604007471253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_83
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd8d98f339197000800000000000000
+      internalID: 34086183187090873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_84
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 358
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541a004bd3223d5a0800000000000000
+      internalID: -6497812188957204155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_85
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f07b8f68d9d70200800000000000000
+      internalID: 146325036520403191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_86
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 358
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0ea2f98641f5d20800000000000000
+      internalID: 3269354294073811143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_87
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095b5310327e81100800000000000000
+      internalID: 79067131009152400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_88
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 358
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baba16c9deb1961e0800000000000000
+      internalID: -2204199835276301397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_89
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9968e69da1cd1c0800000000000000
+      internalID: -4477674408348575288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_90
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 358
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a057375bd1e7cdae0800000000000000
+      internalID: -1523203907894676214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_91
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef92b49afed120240800000000000000
+      internalID: 4756397071631329790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_92
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 282
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9419850c7350dce0800000000000000
+      internalID: -1382513293468822373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_93
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 307
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04ff2dcb2eccfd80800000000000000
+      internalID: -8215464932709239793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_94
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 282
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5a9491f7ec23f80800000000000000
+      internalID: -8128207332169898548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_95
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 307
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ae11c8d58661590800000000000000
+      internalID: -7703855361579423099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_96
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 282
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8e4c0f6dffb700800000000000000
+      internalID: 558443532206903272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_97
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 307
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eafd5c7e4965150800000000000000
+      internalID: 5861035688247406157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_98
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 282
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2872f96fbca2180800000000000000
+      internalID: -9139268233702440266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_99
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 307
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31e8355d29da3e40800000000000000
+      internalID: 5637056672334143806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_100
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 224
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72051307b7f7e1e0800000000000000
+      internalID: -2168492330152820099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_101
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 262
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cce9f43f4b3b02f0800000000000000
+      internalID: -1005644880409924411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_102
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 224
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cf3d9bdab42a2e0800000000000000
+      internalID: -2116045665391608790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 262
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cb1ef9dbd159b90800000000000000
+      internalID: -7235844526032438166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_104
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 224
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e3e076e0096b480800000000000000
+      internalID: -8883754823408796010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_105
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 262
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b22ff22b5a2c7d0800000000000000
+      internalID: -2899573025346016381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_106
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 224
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a61e951abd35c70800000000000000
+      internalID: 8958745569814211073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_107
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 262
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c334f735a4daaf930800000000000000
+      internalID: 4177842139079590716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_108
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456760edfa7cbb480800000000000000
+      internalID: -8882286281900001708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_109
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 196
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e595a1b1fde01c290800000000000000
+      internalID: -7871994322271708834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_110
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e387ec3c7bef06d0800000000000000
+      internalID: -3021937906112035864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_111
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 196
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90973fa6c2efa3610800000000000000
+      internalID: 1601872084209989897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_112
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01abd3787df922280800000000000000
+      internalID: -9069510951535003120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_113
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 196
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7200957143cc4670800000000000000
+      internalID: 8524402880618168959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_114
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad366555a39f90c0800000000000000
+      internalID: -4566769158818742873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_115
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 196
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0eb0f72d758cd80800000000000000
+      internalID: -8230231757433347931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_116
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 166
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605f78e37138db20800000000000000
+      internalID: 3159329512492060775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_117
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58ede42d4c2aff80800000000000000
+      internalID: -8072090672264517542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_118
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b315bb0eb4d97e0800000000000000
+      internalID: -1757164851017204851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_119
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaaef9a3ba6e36f0800000000000000
+      internalID: -703007171939489059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_120
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10218af5956043a0800000000000000
+      internalID: -6683230152190517221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_121
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0317cfdba7cd47800800000000000000
+      internalID: 609354269333418288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_122
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdb2019f4c3e7940800000000000000
+      internalID: 5295736524267240956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_123
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d7a78cfcf395160800000000000000
+      internalID: 7014708056260509039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_124
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcadf8aae2b420a10800000000000000
+      internalID: 1874143058741680847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kniha_125
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252277e2bd2fa83f0800000000000000
+      internalID: -897638152515673518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kniha_0: -1157622261351562431
+      kniha_1: 5014945313595349988
+      kniha_10: -3688957220431539022
+      kniha_100: -2168492330152820099
+      kniha_101: -1005644880409924411
+      kniha_102: -2116045665391608790
+      kniha_103: -7235844526032438166
+      kniha_104: -8883754823408796010
+      kniha_105: -2899573025346016381
+      kniha_106: 8958745569814211073
+      kniha_107: 4177842139079590716
+      kniha_108: -8882286281900001708
+      kniha_109: -7871994322271708834
+      kniha_11: -6662286005364887449
+      kniha_110: -3021937906112035864
+      kniha_111: 1601872084209989897
+      kniha_112: -9069510951535003120
+      kniha_113: 8524402880618168959
+      kniha_114: -4566769158818742873
+      kniha_115: -8230231757433347931
+      kniha_116: 3159329512492060775
+      kniha_117: -8072090672264517542
+      kniha_118: -1757164851017204851
+      kniha_119: -703007171939489059
+      kniha_12: 7233565655256754760
+      kniha_120: -6683230152190517221
+      kniha_121: 609354269333418288
+      kniha_122: 5295736524267240956
+      kniha_123: 7014708056260509039
+      kniha_124: 1874143058741680847
+      kniha_125: -897638152515673518
+      kniha_13: 6590886524522501108
+      kniha_14: -3874887591548213641
+      kniha_15: 9218020391427662967
+      kniha_16: -4336421402248951331
+      kniha_17: 5951237633934240478
+      kniha_18: 7318555033157897001
+      kniha_19: -3834689160895511473
+      kniha_2: 6851155571794625006
+      kniha_20: -5314975378083368513
+      kniha_21: -4083332545840683546
+      kniha_22: -2555623715029756861
+      kniha_23: -6118742536955040643
+      kniha_24: 7537729256184348926
+      kniha_25: -8549876081979213910
+      kniha_26: 3891867670763899455
+      kniha_27: 920096814625246836
+      kniha_28: 8839519379141667382
+      kniha_29: -5148283344836094785
+      kniha_3: 1581797816023611559
+      kniha_30: 5819989601388453978
+      kniha_31: -4512704178437699936
+      kniha_32: -221993569791919330
+      kniha_33: 5701969533451382544
+      kniha_34: -8483378063293554365
+      kniha_35: -2830196041814191325
+      kniha_36: 4845258563047369783
+      kniha_37: -1252198104749272037
+      kniha_38: -4442445262772124356
+      kniha_39: 8503737512770489451
+      kniha_4: -8575159785932669233
+      kniha_40: -4754422862406397175
+      kniha_41: -2542143482184633398
+      kniha_42: 3032038490980830889
+      kniha_43: -2545629828249916599
+      kniha_44: 5011008728901152355
+      kniha_45: -2764079669902782289
+      kniha_46: 8553942888648164388
+      kniha_47: -1176773661525693548
+      kniha_48: -2285962898660988280
+      kniha_49: 2987347815469845813
+      kniha_5: 2345471909679063040
+      kniha_50: -3062484945736550013
+      kniha_51: 4558794526369690870
+      kniha_52: 7933928998697851841
+      kniha_53: 6485487747494209215
+      kniha_54: -3713458129431108845
+      kniha_55: 5068746291474199064
+      kniha_56: -7945609659446985601
+      kniha_57: 8240112460930496149
+      kniha_58: -3234623180996715289
+      kniha_59: 3936593791775272346
+      kniha_6: 5600390531028634239
+      kniha_60: -376593155695422251
+      kniha_61: 7678193968269148201
+      kniha_62: 6680740931004953874
+      kniha_63: 7330034545378639005
+      kniha_64: 5899777874061502622
+      kniha_65: -8069038464908501903
+      kniha_66: -8414406353017604736
+      kniha_67: 932372683220915510
+      kniha_68: 8506303413567065947
+      kniha_69: -7750199074132882348
+      kniha_7: -7279370952133781827
+      kniha_70: 4800936701232618783
+      kniha_71: 736644948073374496
+      kniha_72: 5177075195651348756
+      kniha_73: 7109141579701819740
+      kniha_74: -2395170744128803781
+      kniha_75: 1932329777758149318
+      kniha_76: -125509078989979826
+      kniha_77: 3705181364935353289
+      kniha_78: -5523811690474570857
+      kniha_79: 6082577991192315587
+      kniha_8: -3654668541783018507
+      kniha_80: -8321609787655889846
+      kniha_81: 5740340630064921392
+      kniha_82: -7739367604007471253
+      kniha_83: 34086183187090873
+      kniha_84: -6497812188957204155
+      kniha_85: 146325036520403191
+      kniha_86: 3269354294073811143
+      kniha_87: 79067131009152400
+      kniha_88: -2204199835276301397
+      kniha_89: -4477674408348575288
+      kniha_9: -4035293348236941870
+      kniha_90: -1523203907894676214
+      kniha_91: 4756397071631329790
+      kniha_92: -1382513293468822373
+      kniha_93: -8215464932709239793
+      kniha_94: -8128207332169898548
+      kniha_95: -7703855361579423099
+      kniha_96: 558443532206903272
+      kniha_97: 5861035688247406157
+      kniha_98: -9139268233702440266
+      kniha_99: 5637056672334143806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
