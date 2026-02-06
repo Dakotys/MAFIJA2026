@@ -1,19 +1,32 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class miniplayer_controller : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
+    public static bool isDead = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+    /* void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Check if the player collided with a specific tag or layer
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(3); 
+            Debug.Log("Player hit an enemy!");
+            // Handle collision (e.g., take damage, play sound)
+        }
+    } */
+
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = InputManager.Movement.x ;
+        float moveVertical = InputManager.Movement.y;
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         // Normalize the vector to prevent faster diagonal movement
         if (movement.magnitude > 1f)
@@ -21,5 +34,11 @@ public class miniplayer_controller : MonoBehaviour
             movement.Normalize();
         }
         rb.linearVelocity = movement * speed;
+        
+        if (isDead)
+        {
+            SceneManager.LoadScene(3); 
+        }
     }
+    
 }

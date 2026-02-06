@@ -12,7 +12,7 @@ public class InputManager : MonoBehaviour
     private PlayerInput _playerInput;
     private InputAction _moveAction;
     private InputAction _esc;
-    private InputAction _space;
+    public static InputAction _space;
 
     private bool _isPlaying = true;
 
@@ -46,7 +46,7 @@ public class InputManager : MonoBehaviour
         {
             Movement = _moveAction.ReadValue<Vector2>();
 
-            // Load area scene on Space if player in DetectionArea
+
             if (AreaScene != -1 && _space.WasPressedThisFrame())
             {
                 SceneManager.LoadSceneAsync(AreaScene);
