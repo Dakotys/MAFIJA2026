@@ -4,7 +4,7 @@ public class miniplayer_controller : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -12,8 +12,8 @@ public class miniplayer_controller : MonoBehaviour
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = InputManager.Movement.x ;
+        float moveVertical = InputManager.Movement.y;
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         // Normalize the vector to prevent faster diagonal movement
         if (movement.magnitude > 1f)
