@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f681e276ca7b5b24c8e9a5f70147e23f
+guid: f8358030c92ddc645a3cd6379465fe5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4726522335782357095
-    second: office_0
+      213: 3509054610738723816
+    second: ruleta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: office_0
+      name: ruleta_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 112
+        x: 4
+        y: 4
+        width: 164
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 768c14fa50bf79140800000000000000
-      internalID: 4726522335782357095
+      spriteID: 8eb3782a39aa2b030800000000000000
+      internalID: 3509054610738723816
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      office_0: 4726522335782357095
+      ruleta_0: 3509054610738723816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

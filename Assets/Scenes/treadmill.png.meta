@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f681e276ca7b5b24c8e9a5f70147e23f
+guid: aafaa377f3add3049b4696b75bf18d51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4726522335782357095
-    second: office_0
+      213: -4556850534198663501
+    second: treadmill_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: office_0
+      name: treadmill_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 112
+        x: 75
+        y: 135
+        width: 462
+        height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 768c14fa50bf79140800000000000000
-      internalID: 4726522335782357095
+      spriteID: 3b62a861590d2c0c0800000000000000
+      internalID: -4556850534198663501
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      office_0: 4726522335782357095
+      treadmill_0: -4556850534198663501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

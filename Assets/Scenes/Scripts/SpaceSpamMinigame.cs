@@ -8,6 +8,7 @@ public class SpaceSpamMinigame : MonoBehaviour
     public float fillAmountPerPress = 0.1f; // How much the bar fills per Space press
     public float timeLimit = 10f; // Time limit for the minigame
     public int goalProgress = 10; // Progress needed to win
+    public float regressAmountPerSecond = 0.05f;
 
     private float currentProgress = 0f;
     private float timer;
@@ -24,6 +25,10 @@ public class SpaceSpamMinigame : MonoBehaviour
     {
         if (isGameOver) return;
 
+        currentProgress -= regressAmountPerSecond * Time.deltaTime;
+        currentProgress = Mathf.Max(currentProgress, 0f); // Don't go below 0
+        progressBar.value = currentProgress;
+
         // Count down the timer
         timer -= Time.deltaTime;
         if (timer <= 0f)
@@ -33,7 +38,7 @@ public class SpaceSpamMinigame : MonoBehaviour
         }
 
         // Detect Space key press
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (InputManager._space.WasPressedThisFrame())
         {
             currentProgress += fillAmountPerPress;
             progressBar.value = currentProgress;
