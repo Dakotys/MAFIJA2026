@@ -23,6 +23,14 @@ public class Bullet : MonoBehaviour
         spawnPoint = new Vector2(transform.position.x, transform.position.y);
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            miniplayer_controller.isDead = true;
+            Destroy(this.gameObject);
+        }
+    }
 
     // Update is called once per frame
     void Update()

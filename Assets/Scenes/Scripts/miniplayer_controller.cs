@@ -5,13 +5,14 @@ public class miniplayer_controller : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
-    
+    public static bool isDead = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    /* void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the player collided with a specific tag or layer
         if (collision.gameObject.CompareTag("Enemy"))
@@ -20,7 +21,7 @@ public class miniplayer_controller : MonoBehaviour
             Debug.Log("Player hit an enemy!");
             // Handle collision (e.g., take damage, play sound)
         }
-    }
+    } */
 
     void Update()
     {
@@ -33,6 +34,11 @@ public class miniplayer_controller : MonoBehaviour
             movement.Normalize();
         }
         rb.linearVelocity = movement * speed;
+        
+        if (isDead)
+        {
+            SceneManager.LoadScene(3); 
+        }
     }
     
 }
