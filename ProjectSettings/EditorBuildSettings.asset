@@ -15,11 +15,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: 2e6f527350e351b48af8fba4bafcce74
   - enabled: 1
-    path: Assets/Scenes/Scenes/Death.unity
-    guid: ca29ab8a395a19a43af81901d1f35078
+    path: Assets/Scenes/Scenes/dead.unity
+    guid: 0af785b4713027f489143fb4a4789227
   - enabled: 1
     path: Assets/Scenes/Scenes/Hospital.unity
     guid: 2344f2cfbd8581a45a602df6d5d23415
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Gym.unity
+    guid: e03e387816a365348b872fb464d6b43d
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Office.unity
+    guid: 5505060230bcb3d4ba39ffa900525808
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Casino.unity
+    guid: 2e195d723e32cdc43b133c7f38c65a1a
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Jail.unity
+    guid: a9513cca285a3ad41b621cf827e9d74e
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Pub.unity
+    guid: a611af364ce675d4698978b8864bcec7
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Home.unity
+    guid: 93f01d394b5986846b7b16b44cacafe1
+  - enabled: 1
+    path: Assets/Scenes/Scenes/electric.unity
+    guid: 1ec5dacc07d32cd4d83f1bd833414de1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
