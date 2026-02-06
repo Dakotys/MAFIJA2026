@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class GameEvent
@@ -562,17 +563,7 @@ public class TheState : MonoBehaviour
       }
     }
   };
-
-    // Hardcoded initial values
-    private int Health = 100,
-    MaxHealth = 100;
-    private int Stamina = 100,
-    MaxStamina = 100;
-    private int Intellect = 50,
-    MaxIntellect = 100;
-    private int Money = 50;
-
-    public static bool HasSlept = false;
+    public static TheState Instance { get; private set; }
 
     public GameObject eventpoup;
     public GameObject responcepopup;
@@ -585,36 +576,86 @@ public class TheState : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timetext;
     [SerializeField] private TextMeshProUGUI responseText;
 
-    [SerializeField] private float gameDayDurationMinutes = 3f; // Real-life minutes per game day (affected by stamina)
-    [SerializeField] private float minEventInterval = 30f; // Min seconds between events
-    [SerializeField] private float maxEventInterval = 90f; // Max seconds between events
+    [SerializeField] private UnityEngine.UI.Image nightOverlay;
+
+    [SerializeField] private float gameDayDurationMinutes = 3f;
+    [SerializeField] private float minEventInterval = 30f;
+    [SerializeField] private float maxEventInterval = 90f;
 
     private const float BAR_WIDTH = 300f;
     private const float BAR_HEIGHT = 30f;
-    private const float MIN_DAY_DURATION = 2f; // Minimum minutes per day
-    private const float MAX_DAY_DURATION = 5f; // Maximum minutes per day
+    private const float MIN_DAY_DURATION = 2f;
+    private const float MAX_DAY_DURATION = 5f;
 
-    private float gameTimeHours = 6f; // Start at 6:00 AM
     private float nextEventTime;
     private bool isEventActive = false;
     private GameEvent currentEvent;
 
+    //private void Awake()
+    //{
+    //    // Singleton pattern
+    //    if (Instance == null)
+    //    {
+    //        Instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else if (Instance != this)
+    //    {
+    //        Destroy(gameObject);
+    //        return;
+    //    }
+    //}
+
     void Start()
     {
-        SetMaxHealth(MaxHealth);
-        SetMaxStamina(MaxStamina);
-        SetMaxIntellect(MaxIntellect);
+        SetMaxHealth(GlobalVars.MaxHealth);
+        SetMaxStamina(GlobalVars.MaxStamina);
+        SetMaxIntellect(GlobalVars.MaxIntellect);
         UpdateMoneyText();
         UpdateTimeText();
         ScheduleNextEvent();
         StartCoroutine(GameTimeLoop());
     }
 
-    void Update()
+    private void UpdateNightOverlay()
     {
-        // Test inputs
-        // if (Input.GetKeyDown(KeyCode.Q)) SetHealth(-20);
-        // if (Input.GetKeyDown(KeyCode.E)) SetHealth(20);
+        if (nightOverlay != null)
+        {
+            float alpha = CalculateNightAlpha(GlobalVars.GameTimeHours);
+            Color overlayColor = nightOverlay.color;
+            overlayColor.a = alpha / 255f; // Convert 0-255 to 0-1 range
+            nightOverlay.color = overlayColor;
+        }
+    }
+
+    private float CalculateNightAlpha(float hours)
+    {
+        // Peak day (noon = 12:00): alpha = 20
+        // Peak night (midnight = 0:00 or 24:00): alpha = 240
+
+        if (hours >= 6f && hours <= 18f)
+        {
+            // Daytime (6 AM to 6 PM)
+            // At 12:00 (noon), alpha should be 20 (minimum)
+            float noonDistance = Mathf.Abs(hours - 12f); // 0 at noon, 6 at 6 AM/PM
+            return Mathf.Lerp(20f, 150f, noonDistance / 6f);
+        }
+        else
+        {
+            // Nighttime (6 PM to 6 AM)
+            float nightHours = hours >= 18f ? hours - 18f : hours + 6f; // 0 at 6 PM, 6 at midnight, 12 at 6 AM
+
+            if (nightHours <= 6f)
+            {
+                // 6 PM to midnight: darkening
+                return Mathf.Lerp(150f, 240f, nightHours / 6f);
+            }
+            else
+            {
+                // Midnight to 6 AM: lightening
+                return Mathf.Lerp(240f, 150f, (nightHours - 6f) / 6f);
+            }
+        }
     }
 
     private IEnumerator GameTimeLoop()
@@ -622,31 +663,31 @@ public class TheState : MonoBehaviour
         while (true)
         {
             float secondsPerGameHour = (gameDayDurationMinutes * 60f) / 24f;
-            yield
-            return new WaitForSeconds(secondsPerGameHour);
+            yield return new WaitForSeconds(secondsPerGameHour);
 
             if (!isEventActive)
             {
-                gameTimeHours += 1f;
+                GlobalVars.GameTimeHours += 1f;
 
-                if (gameTimeHours >= 24f)
+                if (GlobalVars.GameTimeHours >= 24f)
                 {
-                    gameTimeHours = 0f;
+                    GlobalVars.GameTimeHours = 0f;
                 }
 
                 UpdateTimeText();
+                UpdateNightOverlay();
 
                 // Check for sleep penalty at 23:00
-                if (gameTimeHours >= 23f && !HasSlept)
+                if (GlobalVars.GameTimeHours >= 23f && !GlobalVars.HasSlept)
                 {
                     TriggerSleepPenalty();
-                    HasSlept = true;
+                    GlobalVars.HasSlept = true;
                 }
 
                 // Reset HasSlept at midnight (0:00-1:00)
-                if (gameTimeHours >= 0f && gameTimeHours < 1f)
+                if (GlobalVars.GameTimeHours >= 0f && GlobalVars.GameTimeHours < 1f)
                 {
-                    HasSlept = false;
+                    GlobalVars.HasSlept = false;
                 }
             }
         }
@@ -679,27 +720,27 @@ public class TheState : MonoBehaviour
             type = "choice",
             text = "It's 23:00 and you haven't slept. Go to bed now or pull an all-nighter?",
             confirm = new List<GameEvent> {
-        new GameEvent {
-          type = "response",
-          text = "You went to bed. You wake up refreshed at 6:00 AM.",
-          result = new EventResult {
-            health = 10,
-            stamina = MaxStamina - Stamina,
-            timeSkip = 7f
-          }
-        }
-      },
+                new GameEvent {
+                    type = "response",
+                    text = "You went to bed. You wake up refreshed at 6:00 AM.",
+                    result = new EventResult {
+                        health = 10,
+                        stamina = GlobalVars.MaxStamina - GlobalVars.Stamina,
+                        timeSkip = 7f
+                    }
+                }
+            },
             decline = new List<GameEvent> {
-        new GameEvent {
-          type = "response",
-          text = "You stayed awake all night. You feel exhausted and sick.",
-          result = new EventResult {
-            health = -20,
-            stamina = -30,
-            intellect = -10
-          }
-        }
-      }
+                new GameEvent {
+                    type = "response",
+                    text = "You stayed awake all night. You feel exhausted and sick.",
+                    result = new EventResult {
+                        health = -20,
+                        stamina = -30,
+                        intellect = -10
+                    }
+                }
+            }
         };
 
         currentEvent = sleepEvent;
@@ -709,7 +750,7 @@ public class TheState : MonoBehaviour
     public void PopupEvent(GameEvent gameEvent)
     {
         isEventActive = true;
-        Time.timeScale = 0f; // Freeze game time
+        Time.timeScale = 0f;
 
         if (eventpoup != null)
         {
@@ -807,7 +848,7 @@ public class TheState : MonoBehaviour
         }
 
         isEventActive = false;
-        Time.timeScale = 1f; // Unfreeze game time
+        Time.timeScale = 1f;
         currentEvent = null;
         ScheduleNextEvent();
     }
@@ -817,73 +858,78 @@ public class TheState : MonoBehaviour
         if (result.health != 0) SetHealth(result.health);
         if (result.stamina != 0) SetStamina(result.stamina);
         if (result.intellect != 0) SetIntellect(result.intellect);
-        if (result.money != 0) SetMoney(Money + result.money);
+        if (result.money != 0) SetMoney(GlobalVars.Money + result.money);
 
         if (result.timeSkip > 0)
         {
-            gameTimeHours += result.timeSkip;
-            if (gameTimeHours >= 24f) gameTimeHours -= 24f;
+            GlobalVars.GameTimeHours += result.timeSkip;
+            if (GlobalVars.GameTimeHours >= 24f) GlobalVars.GameTimeHours -= 24f;
             UpdateTimeText();
         }
     }
 
     public void SetHealth(int healthChange)
     {
-        Health += healthChange;
-        Health = Mathf.Clamp(Health, 0, MaxHealth);
-        UpdateBar(healthBarRect, Health, MaxHealth);
+        GlobalVars.Health += healthChange;
+        GlobalVars.Health = Mathf.Clamp(GlobalVars.Health, 0, GlobalVars.MaxHealth);
+        UpdateBar(healthBarRect, GlobalVars.Health, GlobalVars.MaxHealth);
 
-        if (Health <= 0)
+        if (GlobalVars.Health <= 0)
         {
             GameOver();
         }
     }
 
+    public int GetMaxHealth()
+    {
+        return GlobalVars.MaxHealth;
+    }
+
     public void SetMaxHealth(int newMaxHealth)
     {
-        MaxHealth = newMaxHealth;
+        GlobalVars.MaxHealth = newMaxHealth;
         healthBarRect.sizeDelta = new Vector2(BAR_WIDTH, BAR_HEIGHT);
-        Health = Mathf.Clamp(Health, 0, MaxHealth);
-        UpdateBar(healthBarRect, Health, MaxHealth);
+        GlobalVars.Health = Mathf.Clamp(GlobalVars.Health, 0, GlobalVars.MaxHealth);
+        UpdateBar(healthBarRect, GlobalVars.Health, GlobalVars.MaxHealth);
     }
 
     public void SetStamina(int staminaChange)
     {
-        Stamina += staminaChange;
-        Stamina = Mathf.Clamp(Stamina, 0, MaxStamina);
-        UpdateBar(staminaBarRect, Stamina, MaxStamina);
+        GlobalVars.Stamina += staminaChange;
+        GlobalVars.Stamina = Mathf.Clamp(GlobalVars.Stamina, 0, GlobalVars.MaxStamina);
+        UpdateBar(staminaBarRect, GlobalVars.Stamina, GlobalVars.MaxStamina);
 
-        // Adjust game day duration based on stamina (lower stamina = slower day)
-        float staminaRatio = (float)Stamina / MaxStamina;
+        // Adjust game day duration based on stamina
+        float staminaRatio = (float)GlobalVars.Stamina / GlobalVars.MaxStamina;
         gameDayDurationMinutes = Mathf.Lerp(MAX_DAY_DURATION, MIN_DAY_DURATION, staminaRatio);
     }
 
     public void SetMaxStamina(int newMaxStamina)
     {
-        MaxStamina = newMaxStamina;
+        GlobalVars.MaxStamina = newMaxStamina;
         staminaBarRect.sizeDelta = new Vector2(BAR_WIDTH, BAR_HEIGHT);
-        Stamina = Mathf.Clamp(Stamina, 0, MaxStamina);
-        UpdateBar(staminaBarRect, Stamina, MaxStamina);
+        GlobalVars.Stamina = Mathf.Clamp(GlobalVars.Stamina, 0, GlobalVars.MaxStamina);
+        UpdateBar(staminaBarRect, GlobalVars.Stamina, GlobalVars.MaxStamina);
     }
 
     public void SetIntellect(int intellectChange)
     {
-        Intellect += intellectChange;
-        Intellect = Mathf.Clamp(Intellect, 0, MaxIntellect);
-        UpdateBar(intellectBarRect, Intellect, MaxIntellect);
+        GlobalVars.Intellect += intellectChange;
+        GlobalVars.Intellect = Mathf.Clamp(GlobalVars.Intellect, 0, GlobalVars.MaxIntellect);
+        UpdateBar(intellectBarRect, GlobalVars.Intellect, GlobalVars.MaxIntellect);
     }
 
     public void SetMaxIntellect(int newMaxIntellect)
     {
-        MaxIntellect = newMaxIntellect;
+        GlobalVars.MaxIntellect = newMaxIntellect;
         intellectBarRect.sizeDelta = new Vector2(BAR_WIDTH, BAR_HEIGHT);
-        Intellect = Mathf.Clamp(Intellect, 0, MaxIntellect);
-        UpdateBar(intellectBarRect, Intellect, MaxIntellect);
+        GlobalVars.Intellect = Mathf.Clamp(GlobalVars.Intellect, 0, GlobalVars.MaxIntellect);
+        UpdateBar(intellectBarRect, GlobalVars.Intellect, GlobalVars.MaxIntellect);
     }
 
     public void SetMoney(int newMoney)
     {
-        Money = newMoney;
+        GlobalVars.Money = newMoney;
         UpdateMoneyText();
     }
 
@@ -901,7 +947,7 @@ public class TheState : MonoBehaviour
     {
         if (moneyText != null)
         {
-            moneyText.text = "$" + Money.ToString();
+            moneyText.text = "$" + GlobalVars.Money.ToString();
         }
     }
 
@@ -909,8 +955,8 @@ public class TheState : MonoBehaviour
     {
         if (timetext != null)
         {
-            int hours = Mathf.FloorToInt(gameTimeHours);
-            int minutes = Mathf.FloorToInt((gameTimeHours - hours) * 60f);
+            int hours = Mathf.FloorToInt(GlobalVars.GameTimeHours);
+            int minutes = Mathf.FloorToInt((GlobalVars.GameTimeHours - hours) * 60f);
             timetext.text = string.Format("{0:00}:{1:00}", hours, minutes);
         }
     }
@@ -918,6 +964,6 @@ public class TheState : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("Game Over - Health reached 0");
-        // Implement game over logic here
+        SceneManager.LoadScene(3);
     }
 }
