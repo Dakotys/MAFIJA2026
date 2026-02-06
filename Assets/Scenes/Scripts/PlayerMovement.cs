@@ -21,12 +21,12 @@ public class PlayerMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    void Update() 
+    void Update()
     {
         _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
 
         _rb.linearVelocity = _movement * _moveSpeed;
-    
+
         _animator.SetFloat(_horizontal, _movement.x);
         _animator.SetFloat(_vertical, _movement.y);
 
@@ -35,5 +35,30 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetFloat(_lastVertical, _movement.y);
             _animator.SetFloat(_lastHorizontal, _movement.x);
         }
+
+        // Wrap coordinates
+        Vector3 position = transform.position;
+
+        // X coordinate wrapping
+        if (position.x > 60f)
+        {
+            position.x -= 61f;
+        }
+        else if (position.x < -16f)
+        {
+            position.x += 61f;
+        }
+
+        // Y coordinate wrapping
+        if (position.y > 26f)
+        {
+            position.y -= 41f;
+        }
+        else if (position.y < -26f)
+        {
+            position.y += 41f;
+        }
+
+        transform.position = position;
     }
 }
