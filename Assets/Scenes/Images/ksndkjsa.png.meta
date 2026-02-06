@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dff5a8b4f7e9314489a27f68cd1e90ba
+guid: 40103fb3603250e44a6ea58b8c014205
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1842152544683910506
-    second: tvojdom_0
+      213: -8992071921441899173
+    second: ksndkjsa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tvojdom_0
+      name: ksndkjsa_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 140
+        width: 598
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6567ffaaf3a09910800000000000000
-      internalID: 1842152544683910506
+      spriteID: b5df0bfba3eb53380800000000000000
+      internalID: -8992071921441899173
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tvojdom_0: 1842152544683910506
+      ksndkjsa_0: -8992071921441899173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
