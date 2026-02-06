@@ -10,6 +10,16 @@ public class miniplayer_controller : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Check if the player collided with a specific tag or layer
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Player hit an enemy!");
+            // Handle collision (e.g., take damage, play sound)
+        }
+    }
+
     void Update()
     {
         float moveHorizontal = InputManager.Movement.x ;
