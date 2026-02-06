@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class miniplayer_controller : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class miniplayer_controller : MonoBehaviour
         // Check if the player collided with a specific tag or layer
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            SceneManager.LoadScene(3); 
             Debug.Log("Player hit an enemy!");
             // Handle collision (e.g., take damage, play sound)
         }
@@ -32,4 +34,5 @@ public class miniplayer_controller : MonoBehaviour
         }
         rb.linearVelocity = movement * speed;
     }
+    
 }
