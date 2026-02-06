@@ -31,7 +31,7 @@ public class ArrowGame : MonoBehaviour
         arrowTransform.anchoredPosition += new Vector2(moveDirection * moveSpeed * Time.deltaTime, 0f);
 
         // Check if the player pressed SPACE
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (InputManager._space.WasPressedThisFrame())
         {
             if (IsInSafeZone())
             {
@@ -54,7 +54,7 @@ public class ArrowGame : MonoBehaviour
     {
         // Check if the arrow is over the green safe zone
         float arrowX = arrowTransform.anchoredPosition.x;
-        float safeZoneX = safeZoneTransform.anchoredPosition.x;
+        float safeZoneX = safeZoneTransform.anchoredPosition.x * 1.5f;
         float safeZoneWidth = safeZoneTransform.rect.width / 2f;
 
         return Mathf.Abs(arrowX - safeZoneX) < safeZoneWidth;
